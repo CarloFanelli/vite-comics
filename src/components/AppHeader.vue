@@ -1,7 +1,7 @@
 <template>
     <header>
 
-        <nav class="navbar navbar-expand-lg bg-body-white my_nav">
+        <nav class="p-0 navbar navbar-expand-lg bg-body-white my_nav">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="../assets/img/dc-logo.png" alt="">
@@ -62,7 +62,6 @@ header {
 
     max-width: 1280px;
     margin: 0 auto;
-    padding: 2rem 0;
     text-align: center;
 
 }
