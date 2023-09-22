@@ -58,6 +58,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variabiles' as *;
+
 header {
 
     max-width: 1280px;
@@ -75,7 +77,7 @@ header {
 }
 
 .active {
-    color: #0282F9 !important;
-    border-bottom: 4px solid #0282F9;
+    color: $dc__evidence !important;
+    border-bottom: 4px solid $dc__evidence;
 }
 </style>

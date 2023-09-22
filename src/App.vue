@@ -1,9 +1,9 @@
 <script>
 
-import AppFooter from './components/AppFooter.vue';
 import AppHeader from './components/AppHeader.vue';
 import AppIconSpace from './components/AppIconSpace.vue';
-import HelloWorld from './components/HelloWorld.vue'
+import Appfooter from './components/appfooter.vue';
+
 
 export default {
 
@@ -16,7 +16,7 @@ export default {
   components: {
     AppHeader,
     AppIconSpace,
-    AppFooter
+    Appfooter
   }
 }
 </script>
@@ -32,7 +32,8 @@ export default {
     <AppIconSpace></AppIconSpace>
 
   </main>
-  <AppFooter></AppFooter>
+
+  <Appfooter></Appfooter>
 </template>
 
-<style scoped></style>
+<style></style>

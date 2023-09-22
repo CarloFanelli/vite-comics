@@ -75,25 +75,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variabiles' as *;
+
 .footer_top {
     margin: 0 auto;
+    z-index: 0;
+    background: url('../assets/img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $dc__light;
+
 
     .content {
         max-width: 1280px;
         margin: 0 auto;
         padding: 3rem 2rem;
 
-        .logo_abs {
-            z-index: 0;
-        }
     }
-
-    background: url('../assets/img/footer-bg.jpg');
-    color: white;
 
     .footer_nav {
         & ul {
-            color: #787978;
+            color: $dc__soft;
             padding: 0;
             text-align: start;
             list-style: none;

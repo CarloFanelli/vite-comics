@@ -31,11 +31,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variabiles' as *;
+
 .footer_bottom {
     z-index: 1;
     position: relative;
 
-    background: #303131;
+    background: $dc__dark;
 
     .content {
 
@@ -44,7 +46,7 @@ export default {
         padding: 2rem;
 
         .my_btn {
-            border: 3px solid #0282f9;
+            border: 3px solid $dc__evidence;
             padding: 1rem;
 
             & a {
@@ -61,7 +63,7 @@ export default {
         }
 
         .social {
-            color: #0282f9;
+            color: $dc__evidence;
         }
     }
 }
