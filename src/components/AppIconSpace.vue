@@ -37,6 +37,8 @@ export default {
 .icon_space {
 
     background: #0282F9;
+    position: relative;
+    z-index: 1;
 
     .content {
         color: white;

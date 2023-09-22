@@ -60,7 +60,7 @@
                         </div>
                     </div>
                     <div class="col-7 position-relative d-flex align-items-center justify-content-center">
-                        <img class="position-absolute" src="../assets/img/dc-logo-bg.png" alt="">
+                        <img class="logo_abs position-absolute" src="../assets/img/dc-logo-bg.png" alt="">
                     </div>
                 </div>
             </div>
@@ -82,6 +82,10 @@ export default {
         max-width: 1280px;
         margin: 0 auto;
         padding: 3rem 2rem;
+
+        .logo_abs {
+            z-index: 0;
+        }
     }
 
     background: url('../assets/img/footer-bg.jpg');
