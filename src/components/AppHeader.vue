@@ -1,0 +1,73 @@
+<template>
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-white my_nav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/img/dc-logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">characters</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">comics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">tv</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">collectibiles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">videos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">fans</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">news</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">shop</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+</template>
+
+<script>
+export default {
+    name: 'AppHeader',
+}
+</script>
+
+<style lang="scss" scoped>
+.nav-link {
+
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 3rem 0;
+
+}
+
+.active {
+    color: #0282F9 !important;
+    border-bottom: 4px solid #0282F9;
+}
+</style>
