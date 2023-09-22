@@ -19,7 +19,11 @@ export default {
 
 <template>
   <AppHeader></AppHeader>
+
   <main>
+    <div class="bg-dark p-5">
+      <h1 class="text-white">some content</h1>
+    </div>
   </main>
 
   <footer>

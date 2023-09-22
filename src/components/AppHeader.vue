@@ -10,7 +10,7 @@
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active" href="#">characters</a>
@@ -58,6 +58,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+header {
+
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    text-align: center;
+
+}
+
 .nav-link {
 
     text-transform: uppercase;
