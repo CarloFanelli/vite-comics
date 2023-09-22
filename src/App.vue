@@ -1,6 +1,7 @@
 <script>
 
 import AppHeader from './components/AppHeader.vue';
+import AppIconSpace from './components/AppIconSpace.vue';
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
@@ -13,6 +14,7 @@ export default {
   },
   components: {
     AppHeader,
+    AppIconSpace
   }
 }
 </script>
@@ -24,6 +26,9 @@ export default {
     <div class="bg-dark p-5">
       <h1 class="text-white">some content</h1>
     </div>
+
+    <AppIconSpace></AppIconSpace>
+
   </main>
 
   <footer>
