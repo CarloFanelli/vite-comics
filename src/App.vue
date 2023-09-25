@@ -4,12 +4,14 @@ import AppHeader from './components/AppHeader.vue';
 import AppIconSpace from './components/AppIconSpace.vue';
 import Appfooter from './components/appfooter.vue';
 
+import icons from './icons'
 
 export default {
 
   data() {
 
     return {
+      icons,
 
     }
   },
@@ -29,7 +31,7 @@ export default {
       <h1 class="text-white">some content</h1>
     </div>
 
-    <AppIconSpace></AppIconSpace>
+    <AppIconSpace v-for="icon in icons" :img="icon.img" :title="icon.title"></AppIconSpace>
 
   </main>
 
