@@ -16,12 +16,10 @@ export default {
     },
     methods: {
         getUrlImg(img) {
-            return new URL(`img`, import.meta.url).href
+            return new URL(img, import.meta.url).href
         }
     },
-    data() {
 
-    }
 
 }
 </script>

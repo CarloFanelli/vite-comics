@@ -2,7 +2,7 @@
     <div class="products_space position-relative">
         <div class="my_btn text-center btn_abs">
             <a href="#">
-                <h6>load more</h6>
+                <h6>Current series</h6>
             </a>
         </div>
         <div class="content d-flex">

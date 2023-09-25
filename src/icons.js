@@ -4,11 +4,11 @@ export default [
         text: 'digital comics'
     },
     {
-        img: '../assets/img/buy-comics-comics-merchandise.png',
+        img: '../assets/img/buy-comics-merchandise.png',
         text: 'comics merchandise'
     },
     {
-        img: '../assets/img/buy-comics-subscription.png',
+        img: '../assets/img/buy-comics-subscriptions.png',
         text: 'subscriptions'
     },
     {
@@ -16,7 +16,7 @@ export default [
         text: 'comics shop-locator'
     },
     {
-        img: '../assets/img/buy-dc-power-visa.png',
+        img: '../assets/img/buy-dc-power-visa.svg',
         text: 'dc power visa'
     }
 ]
