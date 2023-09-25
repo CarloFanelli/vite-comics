@@ -24,8 +24,21 @@ export default {
 @use '../assets/scss/partials/variabiles' as *;
 
 .single_product {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+
     p {
         color: $dc__light;
+        text-align: left;
+        text-transform: uppercase;
     }
+
+    img {
+        max-width: 100%;
+        object-fit: cover;
+        aspect-ratio: 1;
+    }
+
 }
 </style>

@@ -3,6 +3,7 @@
 import AppFooter from './components/AppFooter.vue';
 import AppHeader from './components/AppHeader.vue';
 import AppIconSpace from './components/AppIconSpace.vue';
+import AppJumbo from './components/AppJumbo.vue';
 import AppProducts from './components/AppProducts.vue';
 
 
@@ -18,7 +19,8 @@ export default {
     AppHeader,
     AppIconSpace,
     AppFooter,
-    AppProducts
+    AppProducts,
+    AppJumbo
   }
 }
 </script>
@@ -27,9 +29,7 @@ export default {
   <AppHeader></AppHeader>
 
   <main>
-    <div class="bg-dark p-5">
-      <h1 class="text-white">some content</h1>
-    </div>
+    <AppJumbo></AppJumbo>
     <AppProducts></AppProducts>
 
     <AppIconSpace></AppIconSpace>
