@@ -1,24 +1,24 @@
 <script>
 
+import AppFooter from './components/AppFooter.vue';
 import AppHeader from './components/AppHeader.vue';
 import AppIconSpace from './components/AppIconSpace.vue';
-import Appfooter from './components/appfooter.vue';
+import AppProducts from './components/AppProducts.vue';
 
-import icons from './icons'
 
 export default {
 
   data() {
 
     return {
-      icons,
 
     }
   },
   components: {
     AppHeader,
     AppIconSpace,
-    Appfooter
+    AppFooter,
+    AppProducts
   }
 }
 </script>
@@ -30,12 +30,13 @@ export default {
     <div class="bg-dark p-5">
       <h1 class="text-white">some content</h1>
     </div>
+    <AppProducts></AppProducts>
 
-    <AppIconSpace v-for="icon in icons" :img="icon.img" :title="icon.title"></AppIconSpace>
+    <AppIconSpace></AppIconSpace>
+
+    <AppFooter></AppFooter>
 
   </main>
-
-  <Appfooter></Appfooter>
 </template>
 
 <style></style>
